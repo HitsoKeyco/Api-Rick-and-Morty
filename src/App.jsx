@@ -2,9 +2,10 @@ import './App.css'
 import getRandomNumber from './utils/getRandomNumber'
 import useFetch from './hooks/useFetch';
 import { useEffect, useState } from 'react';
-import LocationInfo from '../components/locationInfo';
+
 import ResidentCard from '../components/ResidentCard';
 import FomSearch from '../components/FomSearch';
+import LocationInfo from '../components/LocationInfo'
 
 function App() {
   const randomId = getRandomNumber(126);
@@ -22,7 +23,7 @@ function App() {
   return (
     <>
       <div className="contenedor__portada">
-        <img className='img__portada' src="portada.jpg" alt="" srcset="" />
+        <img className='img__portada' src="portada.jpg" alt="img"/>
       </div>
       <div className="app">
 
