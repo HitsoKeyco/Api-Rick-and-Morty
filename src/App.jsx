@@ -2,7 +2,7 @@ import './App.css'
 import getRandomNumber from './utils/getRandomNumber'
 import useFetch from './hooks/useFetch';
 import { useEffect, useState } from 'react';
-import Locationinfo from '../components/locationInfo';
+import LocationInfo from '../components/locationInfo';
 import ResidentCard from '../components/ResidentCard';
 import FomSearch from '../components/FomSearch';
 
@@ -33,7 +33,7 @@ function App() {
             ? <div className="cont_alert"><h2 className="alert">👀Hey! you must provide an id from 1 to 126</h2></div> 
             : (
               <>
-                <Locationinfo location={location}/>
+                <LocationInfo location={location}/>
                 <div className="resident-container">
                   {            
                     location?.residents.map(url => (
