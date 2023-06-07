@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: rgb(2, 47, 58);
+}
+
+
+.contenedor__portada{
+    width: vw;
+}
+
+.img__portada{
+    width: 100%;
+}
+
+.app{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;        
+    
+}
+
+.card_resident{
+    width: max-content;
+    background-color:  rgb(6, 37, 37);
+    color: white;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+ul{
+    padding-left: 25px;
+    padding-bottom: 25px;
+    list-style: none;
+    
+}
+
+.title_items_card{
+    padding-left: 10px;    
+}
+
+.resident_header{
+    position: relative;
+}
+
+.status_resident{
+    position: absolute;
+    top: 25px;
+    left: 0;
+    width: 120px;
+    height: 30px;
+    background-color:rgb(6, 37, 37);
+    color: white;
+    padding-left: 15px;
+    border-radius: 0 5px 5px 0;
+
+    display: flex;    
+    align-items: center;
+    
+}
+
+.circle-status{
+    width: 12px;
+    height: 12px;
+    border-radius: 5px;
+    background-color: red;
+    
+
+}
+.status{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.resident_descripion_card{
+    font-weight: bold;
+}
+
+.img_resident{
+    border-radius: 10px 10px 0 0;
+    padding: 5px;
+}
+.resident_name{
+    margin-top: 15px;
+    text-align: center;
+}
+
+hr{
+    width: 85%;
+    margin-top: 15px;
+    opacity: 0.5;    
+}
+
+.name{
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    margin-top: 10px;
+}
+
+.resident-container{
+    width: 100%;
+    
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    
+    gap: 25px;
+}
+
+form{
+    padding:40px;    
+}
+
+input, button{
+    height: 30px;
+}
+
+input{
+    width: 250px;
+    border-radius: 5px 0 0 5px;
+    border: none;
+}
+
+button{
+    width: 100px;
+    background: rgb(19, 206, 19);
+    color: white;
+    border-radius: 0 5px 5px 0;
+    border: none;
+}
+
+.card_data_general{
+    padding: 25px;
+    height: max-content;
+    width: max-content;
+    background-color:rgb(6, 37, 37);
+    margin-bottom: 40px;
+    border-radius: 25px;
+    color: white;
+}
+
+.ul_data_general{
+        display: flex;
+    gap: 25px;
+    text-align: center;
+    
+}
+
+.data_general_resident{
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+}
+
+.name_location_general{
+    text-align: center;
+}
+
+.alert{
+    color: white;
+    padding: 25px;
+}
+
+.cont_alert{
+    padding: 15px;
+    background-color:  rgb(6, 37, 37) ;
+    border-radius: 25px;
+}
