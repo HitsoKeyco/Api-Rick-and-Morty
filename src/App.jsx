@@ -2,7 +2,7 @@ import './App.css'
 import getRandomNumber from './utils/getRandomNumber'
 import useFetch from './hooks/useFetch';
 import { useEffect, useState } from 'react';
-import Locationinfo from '../components/locationinfo';
+import Locationinfo from '../components/locationInfo';
 import ResidentCard from '../components/ResidentCard';
 import FomSearch from '../components/FomSearch';
 
